@@ -8,11 +8,11 @@
 
 <?php 
 
-$number = array('juanita', 'maria', 'jose');
+$number = array('Juanita', 'Maria', 'Jose');
 
 //print_r($number);
 
-echo $number[0] . "<br>";
+echo $number[1] . "<br>";
 echo "<br>";  
 
 
