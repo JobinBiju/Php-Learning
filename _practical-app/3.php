@@ -24,7 +24,9 @@
 	Step 3 : Make a switch Statement that test againts one condition with 5 cases
 
  */
-
+for($i=0; $i<10; $i++) {
+	echo(i);
+}
 	
 ?>
 
