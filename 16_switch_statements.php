@@ -8,7 +8,7 @@
    
 <?php 
 
-$number = 100;
+$number = 37;
 
 switch($number){
 
@@ -16,10 +16,10 @@ switch($number){
     echo "it is 34";
     break;
     case 37:
-    echo "is it 34";
+    echo "is it 37";
     break;
     case 35:
-    echo "is it 34";
+    echo "is it 35";
      break;
     case 24:
     echo "is it 24";

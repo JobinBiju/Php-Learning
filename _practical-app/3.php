@@ -12,22 +12,33 @@
 
 <article class="main-content col-xs-8">
 
-<?php  
+<?php
 
-/*  Step1: Make an if Statement with elseif and else to finally display string saying, I love PHP
-
-
-
-	Step 2: Make a forloop  that displays 10 numbers
-
-
-	Step 3 : Make a switch Statement that test againts one condition with 5 cases
-
- */
-for($i=0; $i<10; $i++) {
-	echo(i);
+if (3>4) {
+    echo "3>4";
+} elseif (7<6) {
+    echo "7<6";
+} else {
+    echo "I love PHP\n";
 }
-	
+
+
+for ($i=0; $i<10; $i++) {
+    echo($i . "\n");
+}
+
+$number = 2;
+
+switch ($number) {
+    case 1: echo "You selected 1\n";
+            break;
+    case 2: echo "You selected 2\n";
+            break;
+
+	default: echo "Wrong Choice";
+			 break;
+}
+    
 ?>
 
 
