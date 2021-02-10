@@ -8,10 +8,10 @@
 
 <?php 
 
-$counter = 0;
-while($counter <= 10 ){
+$counter = 3;
+while($counter <= 15 ){
 
-    echo $counter;
+    echo $counter . "\n";
     $counter++;
 //    $counter = $counter + 1;
 
