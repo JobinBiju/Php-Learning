@@ -8,11 +8,11 @@
 
 <?php 
 
-$numbers = array(345,397,676,385,2657,5784);
+$numbers = array("Hi!",397,676,385,2657,"End of ForEach");
     
-foreach($numbers as $number){
+foreach($numbers as $num){
 
-echo $number . "<br>";
+echo $num . "<br>";
 
 }    
     
