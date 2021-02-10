@@ -8,7 +8,7 @@
 
 <?php 
 
-for($counter = 0; $counter < 10; $counter++){
+for($counter = 3; $counter < 14; $counter++){
 
     echo $counter . "<br>" ;
 
