@@ -6,44 +6,33 @@
 </head>
 <body>
 
-<?php 
+<?php
 
-function greeting($message){
+function greeting($message)
+{
     echo $message;
 }
 
 
-greeting("Hi Customer how are you?");
-    
-    
+greeting("Hi Customer! How are you?");
+
+
 ?>
 
-<?php 
-    
+<?php
 
-function addNumbers($number1, $number2){
 
-$sum = $number1 + $number2;
-
-echo $sum;
-    
+function addNumbers($number1, $number2)
+{
+    $sum = $number1 + $number2;
+    echo $sum;
 }
 
+echo "<br>";
+echo "Adding numbers!";
+addNumbers(345, 3462);
 
-addNumbers(345,3462);
-    
 ?>
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
