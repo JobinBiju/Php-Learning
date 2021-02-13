@@ -23,7 +23,7 @@ function calculate()
 
 function say_Something()
 {
-    echo "Hello Student, do you like the class? yes? okay great\n";
+    echo "Hello Student, do you like the class? <br>Yes? <br>Okay great!\n";
 }
 
 init();
