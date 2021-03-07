@@ -5,8 +5,8 @@
     <title>Document</title>
 </head>
 <body>
-   
-<?php 
+
+<?php
 $number = 10;
 $number = 1000;
 
@@ -18,14 +18,8 @@ define("NAME", 1000);
 echo NAME;
 
 
-
-    
-    
-    
 ?>
-   
- 
-   
-    
+
+
 </body>
 </html>
