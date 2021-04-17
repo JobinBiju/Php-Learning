@@ -20,6 +20,10 @@ echo min($list);
 echo "<br>";
 
 sort($list);
+
+foreach($list as $li){
+    echo $li . ',, ';
+}
     
 print_r($list);
 
