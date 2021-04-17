@@ -10,12 +10,12 @@
 $number = 10;
 $number = 1000;
 
-$number = "Edwin";
+$number = "Jobin";
 echo $number . "<br>";
 
-define("NAME", 1000);
+define("constant", 1000);
 
-echo NAME;
+echo constant;
 
 
 ?>
