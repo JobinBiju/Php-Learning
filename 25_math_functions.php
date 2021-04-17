@@ -8,11 +8,11 @@
 <?php
 
 
-echo pow(2,7);
+echo pow(2,3);
 
 echo "<br>";
 
-echo rand(1, 1000);
+echo rand(10, 1000);
 
 echo "<br>";
 
