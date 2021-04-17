@@ -7,7 +7,6 @@
 <body>
 
 <?php 
-
 $numbers = array("Hi!",397,676,385,2657,"End of ForEach");
     
 foreach($numbers as $num){
@@ -18,8 +17,6 @@ echo $num . "<br>";
     
     
 ?>
-
-
 
 </body>
 </html>
